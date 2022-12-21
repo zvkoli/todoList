@@ -8,7 +8,7 @@
 - **JS**
 - **TS**
 
-### [Live Demo](https://rzvkoli.github.io/Todolistwithjs/)
+### [Live Demo](https://rzvkoli.github.io/Todolist/)
 
 ## Preview
 ### Desktop Mode
