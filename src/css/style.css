@@ -63,13 +63,13 @@ span{
 #input{
   font-family: 'Urbanist';
   width: 28vw;
+  height: 2vw;
   padding: 1vw;
   font-size: 1.5vw;
   font-weight: 500;
   background-color: #131313;
   color: #ff7b00;
   border: hidden;
-  border-radius: 2.5px;
   caret-color: #ff7b00;
 }
 
@@ -106,17 +106,16 @@ span{
   align-items: center;
   background-color: #ff7b00;
   color: #000000;
-  font-size: 2vw;
-  width: 3.75vw;
-  height: 3.75vw;
+  font-size: 2.25vw;
+  width: 4vw;
+  height: 4vw;
   border: hidden;
-  border-radius: 2.5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 .line{
-  border-top: solid 2px #ff7b00;
+  border-top: solid 1px #ff7b00;
   width: 34vw;
-  border-radius: 50vh;
 }
 
 #todo-list{
@@ -135,7 +134,6 @@ span{
   font-size: 1.5vw;
   padding: 1vw;
   font-weight: 300;
-  border-radius: 2.5px;
   width: 32vw;
   word-wrap: break-word;
   text-decoration-line: none;
@@ -163,9 +161,8 @@ span{
   color: #000000;
   background-color: #ff7b00;
   border: hidden;
-  border-radius: 2.5px;
-  font-size: 1.25vw;
+  font-size: 1.5vw;
   font-weight: 500;
-  width: 9vw;
-  height: 3vw;
+  width: 10vw;
+  height: 4vw;
 }
