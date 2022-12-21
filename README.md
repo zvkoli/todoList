@@ -1,10 +1,10 @@
-# Todolistwithjs
+# Todo List
 
 ## Technologies
 
 - **HTML**
 - **CSS**
-- **BOOTSTRAP**
+- **BOOTSTRAP Icon**
 - **JS**
 - **TS**
 
