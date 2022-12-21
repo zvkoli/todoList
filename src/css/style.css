@@ -33,14 +33,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5vh;
-    padding-top: 10vh;
-    width: 65vh;
+    gap: 2vw;
+    padding-top: 10vw;
+    width: 34vw;
+    /* border: solid 1px #ff7b00; */
 }
 
 .title{
   font-family: 'Urbanist';
-  font-size: 50px;
+  font-size: 4vw;
   font-weight: 700;
   color: #fafafa;
   display: flex;
@@ -56,14 +57,14 @@ span{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 0.5vh;
+  gap: 0.25vw;
 }
 
 #input{
   font-family: 'Urbanist';
-  width: 52.5vh;
-  padding: 15px;
-  font-size: 25px;
+  width: 28vw;
+  padding: 1vw;
+  font-size: 1.5vw;
   font-weight: 500;
   background-color: #131313;
   color: #ff7b00;
@@ -101,16 +102,16 @@ span{
 #add-btn{
   background-color: #ff7b00;
   color: #000000;
-  font-size: 35px;
-  width: 8vh;
-  height: 8vh;
+  font-size: 2vw;
+  width: 3.75vw;
+  height: 3.75vw;
   border: hidden;
   border-radius: 2.5px;
 }
 
 .line{
   border-top: solid 2px #ff7b00;
-  width: 100%;
+  width: 34vw;
   border-radius: 50vh;
 }
 
@@ -120,18 +121,18 @@ span{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.5vw;
 }
 
 #task{
   font-family: 'Urbanist';
   background-color: #131313;
   color: #fafafa;
-  font-size: 25px;
-  padding: 10px;
-  margin-bottom: 5px;
+  font-size: 1.5vw;
+  padding: 1vw;
   font-weight: 300;
   border-radius: 2.5px;
-  width: 450px;
+  width: 32vw;
   word-wrap: break-word;
   text-decoration-line: none;
 }
@@ -147,7 +148,7 @@ span{
 }
 
 .footer{
-  width: 65vh;
+  width: 34vw;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -159,52 +160,8 @@ span{
   background-color: #ff7b00;
   border: hidden;
   border-radius: 2.5px;
-  font-size: 18px;
+  font-size: 1.25vw;
   font-weight: 500;
-  width: 90px;
-  height: 50px;
-}
-
-@media only screen and (max-width:500px){
-
-  .todo-app{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5vh;
-    padding-top: 10vh;
-    width: 38vh;
-}
-
-  .title{
-    font-size: 25px;
-  }
-
-  #input{
-    width: 26.5vh;
-    font-size: 12.5px;
-  }
-
-  #add-btn{
-    font-size: 18px;
-    width: 6.5vh;
-    height: 6.5vh;
-  }
-
-  #task{
-    font-size: 12.5px;
-    width: 250px;
-  }
-
-  .footer{
-    width: 38vh;
-  }
-
-  #clear-all-btn{
-    font-size: 12.5px;
-    width: 80px;
-    height: 40px;
-  }
-
+  width: 9vw;
+  height: 3vw;
 }
