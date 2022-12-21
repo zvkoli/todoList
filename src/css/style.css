@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'Urbanist';
+  src: 
+  url('../../public/font/Urbanist-Medium.ttf') format('ttf'),
+  url('../../public/font/Urbanist-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  src: 
+  url('../../public/font/Urbanist-Bold.ttf') format('ttf'),
+  url('../../public/font/Urbanist-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #1d1d1d;
+  font-family: 'Urbanist';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding-top: 10vh;
+    width: 65vh;
+}
+
+.title{
+  font-family: 'Urbanist';
+  font-size: 50px;
+  font-weight: 700;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+
+span{
+  color: #ff7b00;
+}
+
+.input-addBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vh;
+}
+
+#input{
+  font-family: 'Urbanist';
+  width: 52.5vh;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #131313;
+  color: #ff7b00;
+  border: hidden;
+  border-radius: 2.5px;
+  caret-color: #ff7b00;
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+
+#input::placeholder{
+  font-weight: 500;
+  color: #a2a2a2;
+  opacity: 1;
+}
+
+/* Internet Explorer 10-11 */
+
+#input:-ms-input-placeholder{
+  font-weight: 500;
+  color: #a2a2a2;
+}
+
+/* Microsoft Edge */
+
+#input::-ms-input-placeholder {
+  font-weight: 500;
+  color: #a2a2a2;
+}
+
+#input:focus{
+  outline: 0;
+}
+
+#add-btn{
+  background-color: #ff7b00;
+  color: #000000;
+  font-size: 35px;
+  width: 8vh;
+  height: 8vh;
+  border: hidden;
+  border-radius: 2.5px;
+}
+
+.line{
+  border-top: solid 2px #ff7b00;
+  width: 100%;
+  border-radius: 50vh;
+}
+
+#todo-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#task{
+  font-family: 'Urbanist';
+  background-color: #131313;
+  color: #fafafa;
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  border-radius: 2.5px;
+  width: 450px;
+  word-wrap: break-word;
+  text-decoration-line: none;
+}
+
+.bi-x{
+  float: right;
+  background-color: #131313
+}
+
+.bi-x:hover{
+  color: #ff7b00;
+  cursor: pointer;
+}
+
+.footer{
+  width: 65vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+#clear-all-btn{
+  font-family: 'Urbanist';
+  color: #000000;
+  background-color: #ff7b00;
+  border: hidden;
+  border-radius: 2.5px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 90px;
+  height: 50px;
+}
+
+@media only screen and (max-width:500px){
+
+  .todo-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vh;
+    padding-top: 10vh;
+    width: 38vh;
+}
+
+  .title{
+    font-size: 25px;
+  }
+
+  #input{
+    width: 26.5vh;
+    font-size: 12.5px;
+  }
+
+  #add-btn{
+    font-size: 18px;
+    width: 6.5vh;
+    height: 6.5vh;
+  }
+
+  #task{
+    font-size: 12.5px;
+    width: 250px;
+  }
+
+  .footer{
+    width: 38vh;
+  }
+
+  #clear-all-btn{
+    font-size: 12.5px;
+    width: 80px;
+    height: 40px;
+  }
+
+}
