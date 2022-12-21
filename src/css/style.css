@@ -163,7 +163,7 @@ span{
   color: #000000;
   background-color: #ff7b00;
   border: hidden;
-/*   border-radius: 2.5px; */
+  border-radius: 2.5px;
   font-size: 1.25vw;
   font-weight: 500;
   width: 9vw;
