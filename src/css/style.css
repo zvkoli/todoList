@@ -36,7 +36,6 @@ body{
     gap: 2vw;
     padding-top: 10vw;
     width: 34vw;
-    /* border: solid 1px #ff7b00; */
 }
 
 .title{
@@ -165,4 +164,46 @@ span{
   font-weight: 500;
   width: 10vw;
   height: 4vw;
+}
+
+@media only screen and (max-width: 480px){
+  .todo-app{
+    gap: 4vw;
+    padding-top: 10vw;
+    width: 80vw;
+}
+  .title{
+  font-size: 8vw;
+}
+  #input{
+  font-family: 'Urbanist';
+  width: 67vw;
+  height: 4vw;
+  padding: 2vw;
+  font-size: 3vw;
+}
+  #add-btn{
+  font-size: 4vw;
+  width: 8vw;
+  height: 8vw;
+}
+  .line{
+  border-top: solid 1px #ff7b00;
+  width: 80vw;
+}
+  #task{
+  font-size: 3vw;
+  padding: 2vw;
+  font-weight: 300;
+  width: 76vw;
+}
+  .footer{
+  width: 80vw;
+}
+  #clear-all-btn{
+  font-size: 3vw;
+  font-weight: 500;
+  width: 18vw;
+  height: 8vw;
+}
 }
