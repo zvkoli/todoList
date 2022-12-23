@@ -4,7 +4,7 @@
 
 - **HTML**
 - **CSS**
-- **BOOTSTRAP Icon**
+- **BOOTSTRAP ICON**
 - **JS**
 - **TS**
 
