@@ -8,7 +8,7 @@
 - **CSS**
 - **Bootstrap Icon**
 
-### [Live Demo](https://rzvkoli.github.io/Todolist/)
+### [Live Demo](https://rzvkoli.github.io/todoList/)
 
 ## Preview
 
