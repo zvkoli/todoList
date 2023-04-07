@@ -3,9 +3,9 @@
 ## Technologies
 
 - **HTML**
-- **CSS**
 - **JS**
 - **TS**
+- **CSS**
 - **Bootstrap Icon**
 
 ### [Live Demo](https://rzvkoli.github.io/Todolist/)
